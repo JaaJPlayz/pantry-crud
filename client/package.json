@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "watch:tailwind": "npx tailwindcss -i ./src/globals.css -o ./src/output.css --watch"
+    "watch:tailwind": "npx tailwindcss -i ./src/globals.css -o ./src/output.css --watch",
+    "run:full": "npm run watch:tailwind && npm run dev"
   },
   "dependencies": {
     "@types/dotenv": "^6.1.1",
